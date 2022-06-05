@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "mousedelayfix",
+  "version": "{dev-env}",
+  "name": "MouseDelayFix",
+  "description": "Fixes MC-67665.",
+  "authors": [
+    "DragonEggBedrockBreaking",
+    "prplz"
+  ],
+  "contact": {
+    "homepage": "https://github.com/DragonEggBedrockBreaking/MouseDelayFix",
+    "sources": "https://github.com/DragonEggBedrockBreaking/MouseDelayFix",
+    "issues": "https://github.com/DragonEggBedrockBreaking/MouseDelayFix/issues"
+  },
+  "license": "MPL-2.0",
+  "icon": "assets/mousedelayfix/icon.png",
+  "environment": "client",
+  "mixins": [
+    "mousedelayfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "minecraft": "1.8.9"
+  }
+}
